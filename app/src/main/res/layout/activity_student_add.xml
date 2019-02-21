@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.student.add.AddStudent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah siswa"
+            android:textAlignment="center"
+            android:textColor="@color/tambah"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.textfield.TextInputLayout
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxCornerRadiusBottomStart="100dp"
+            app:boxCornerRadiusBottomEnd="100dp"
+            app:boxCornerRadiusTopStart="100dp"
+            app:boxCornerRadiusTopEnd="100dp"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etNis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NIS"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxCornerRadiusBottomStart="100dp"
+            app:boxCornerRadiusBottomEnd="100dp"
+            app:boxCornerRadiusTopStart="100dp"
+            app:boxCornerRadiusTopEnd="100dp"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NAME"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+<Button
+    android:id="@+id/btnSave"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_fill_custom"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="40dp"
+    android:layout_marginEnd="40dp"
+    android:text="@string/save"
+    android:textColor="@color/putih"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

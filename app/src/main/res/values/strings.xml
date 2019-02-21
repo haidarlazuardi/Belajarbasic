@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Majelis coding</string>
+    <string name="login">Masuk</string>
+    <string name="email">email</string>
+    <string name="forgot">lupaa kata sandi?</string>
+    <string name="loginwith">Atau masuk dengan</string>
+    <string name="password">password</string>
+    <string name="name">jojon</string>
+    <string name="agama">islam</string>
+    <string name="save">Simpan</string>
+</resources>

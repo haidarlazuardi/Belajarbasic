@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF004D</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#630529</color>
+    <color name="tosca">#0091EA</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="tambah">#f000</color>
+
+</resources>
